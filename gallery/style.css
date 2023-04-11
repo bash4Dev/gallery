@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.gal-img {
+    display: none;
+    max-height: 600px;
+    border-radius: 1.5rem;
+}
+
+.active {
+    display: block;
+}
+
+.img-gal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: #0074d9;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:disabled {
+    cursor: not-allowed;
+    background-color: #777;
+}
+
+.prev {
+    margin-right: 15px;
+}
